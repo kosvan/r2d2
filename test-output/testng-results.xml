@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38" started-at="2015-09-25T12:16:06Z" finished-at="2015-09-25T12:16:06Z">
+  <suite name="Default suite" duration-ms="59" started-at="2015-09-25T12:48:08Z" finished-at="2015-09-25T12:48:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38" started-at="2015-09-25T12:16:06Z" finished-at="2015-09-25T12:16:06Z">
-      <class name="ru.ZDBTest.TestNG.HelloWorldTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:ru.ZDBTest.TestNG.HelloWorldTest@6f79caec]" name="f" duration-ms="18" started-at="2015-09-25T16:16:06Z" finished-at="2015-09-25T16:16:06Z">
+    <test name="Default test" duration-ms="59" started-at="2015-09-25T12:48:08Z" finished-at="2015-09-25T12:48:08Z">
+      <class name="ru.ZDBTest.TestNG.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ru.ZDBTest.TestNG.NewTest@3ac42916]" name="beforeTest" is-config="true" duration-ms="19" started-at="2015-09-25T16:48:08Z" finished-at="2015-09-25T16:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ru.ZDBTest.TestNG.NewTest@3ac42916]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-09-25T16:48:08Z" finished-at="2015-09-25T16:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:ru.ZDBTest.TestNG.NewTest@3ac42916]" name="f" duration-ms="8" started-at="2015-09-25T16:48:08Z" finished-at="2015-09-25T16:48:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- ru.ZDBTest.TestNG.HelloWorldTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ru.ZDBTest.TestNG.NewTest@3ac42916]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-09-25T16:48:08Z" finished-at="2015-09-25T16:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ru.ZDBTest.TestNG.NewTest@3ac42916]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-25T16:48:08Z" finished-at="2015-09-25T16:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ru.ZDBTest.TestNG.NewTest -->
+      <class name="ru.ZDBTest.TestNG.StartAppiumTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:ru.ZDBTest.TestNG.StartAppiumTest@13b6d03]" name="f" duration-ms="1" started-at="2015-09-25T16:48:08Z" finished-at="2015-09-25T16:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- ru.ZDBTest.TestNG.StartAppiumTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
