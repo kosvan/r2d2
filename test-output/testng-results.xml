@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38" started-at="2015-09-25T12:07:31Z" finished-at="2015-09-25T12:07:31Z">
+  <suite name="Default suite" duration-ms="38" started-at="2015-09-25T12:16:06Z" finished-at="2015-09-25T12:16:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38" started-at="2015-09-25T12:07:31Z" finished-at="2015-09-25T12:07:31Z">
+    <test name="Default test" duration-ms="38" started-at="2015-09-25T12:16:06Z" finished-at="2015-09-25T12:16:06Z">
       <class name="ru.ZDBTest.TestNG.HelloWorldTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:ru.ZDBTest.TestNG.HelloWorldTest@6f79caec]" name="f" duration-ms="17" started-at="2015-09-25T16:07:31Z" finished-at="2015-09-25T16:07:31Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:ru.ZDBTest.TestNG.HelloWorldTest@6f79caec]" name="f" duration-ms="18" started-at="2015-09-25T16:16:06Z" finished-at="2015-09-25T16:16:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
